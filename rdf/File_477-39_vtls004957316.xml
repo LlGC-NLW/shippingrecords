@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lla="http://data.llgc.org.uk/lla/def#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:archiveshub="http://data.archiveshub.ac.uk/def" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:void="http://rdfs.org/ns/void#" xmlns:owl="http://www.w3.org/2002/07/owl#">
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/ship/15772">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookShip"/>
+    <lla:hasHomePort xml:lang="en">Aberystwyth</lla:hasHomePort>
+    <lla:officialnumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">15772</lla:officialnumber>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/archivefile/477-39_vtls004957316"/>
+    <rdfs:label xml:lang="en">Ruby</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q24027055"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbook/15772-477391"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-1"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-2"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-3"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-4"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-5"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbook/!5772-477392"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-1"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-2"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-3"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-4"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-5"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-6"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/archivefile/477-39_vtls004957316">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#File"/>
+    <lla:vtlsNum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">004957316</lla:vtlsNum>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">477-39</dcterms:identifier>
+    <lla:sourceFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">File_477-39_vtls004957316.xls</lla:sourceFile>
+    <lla:mentions rdf:resource="http://data.llgc.org.uk/lla/id/ship/15772"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbook/15772-477391"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbook/!5772-477392"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbook/15772-477391">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Logbook"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">477-39-1</dcterms:identifier>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/archivefile/477-39_vtls004957316"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-1"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-2"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-3"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-4"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/15772-477391"/>
+    <lla:logbookAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36</lla:logbookAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/joining/15772-477391-1"/>
+    <lla:reason xml:lang="en">Remains on board</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+    <lla:note xml:lang="en">In the home trade.</lla:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/15772-477391-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>Laurence Sykes</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/15772-477391-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/15772-477391-1">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:place xml:lang="en">Knottingley, Yorkshire</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/15772-477391-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/joining/15772-477391-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipJoiningEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">3667</dc:date>
+    <bio:place xml:lang="en">London</bio:place>
+    <lla:hasCapacity xml:lang="en">Master</lla:hasCapacity>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/15772-477391-1"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-1"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/15772"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/15772-477391"/>
+    <lla:logbookAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</lla:logbookAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/joining/15772-477391-2"/>
+    <lla:reason xml:lang="en">Remains on board</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/15772-477391-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>Samuel Hayler</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/15772-477391-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/15772-477391-2">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:place xml:lang="en">Aberdovey</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/15772-477391-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/joining/15772-477391-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipJoiningEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">3667</dc:date>
+    <bio:place xml:lang="en">London</bio:place>
+    <lla:hasCapacity xml:lang="en">Mate</lla:hasCapacity>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/15772-477391-2"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-2"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/15772"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-3">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/15772-477391"/>
+    <lla:logbookAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</lla:logbookAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/joining/15772-477391-3"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/15772-477391-3"/>
+    <lla:reason xml:lang="en">Discharged</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/15772-477391-3">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>J.H. Friel</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/15772-477391-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/15772-477391-3">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:place xml:lang="en">Burnley</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/15772-477391-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/joining/15772-477391-3">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipJoiningEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">3667</dc:date>
+    <bio:place xml:lang="en">London</bio:place>
+    <lla:hasCapacity xml:lang="en">O. Seaman</lla:hasCapacity>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/15772-477391-3"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-3"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/15772"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/15772-477391-3">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">3756</dc:date>
+    <bio:place xml:lang="en">London</bio:place>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/15772-477391-3"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-3"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/15772"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-4">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/15772-477391"/>
+    <lla:logbookAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</lla:logbookAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/joining/15772-477391-4"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/15772-477391-4"/>
+    <lla:reason xml:lang="en">Discharged</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/15772-477391-4">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>Walter Hassall</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/15772-477391-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/15772-477391-4">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:place xml:lang="en">Crewe</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/15772-477391-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/joining/15772-477391-4">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipJoiningEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">3667</dc:date>
+    <bio:place xml:lang="en">London</bio:place>
+    <lla:hasCapacity xml:lang="en">Cook</lla:hasCapacity>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/15772-477391-4"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-4"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/15772"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/15772-477391-4">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">3836</dc:date>
+    <bio:place xml:lang="en">Rochester</bio:place>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/15772-477391-4"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-4"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/15772"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-5">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/15772-477391"/>
+    <lla:logbookAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</lla:logbookAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/15772-477391-5-2"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/joining/15772-477391-5"/>
+    <lla:reason xml:lang="en">Remains on board</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/15772-477391-5">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>Cutulie Germain</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/15772-477391-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/15772-477391-5">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:place xml:lang="en">[Brec]</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/15772-477391-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/15772-477391-5-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/15772-477391-5"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-5"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/15772-477391-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/ship/15772-477391-5">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Ship"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/archivefile/477-39_vtls004957316"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbook/15772-477391"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-5"/>
+    <rdfs:label xml:lang="en">Mon Va$$$</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/joining/15772-477391-5">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipJoiningEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">3756</dc:date>
+    <bio:place xml:lang="en">London</bio:place>
+    <lla:hasCapacity xml:lang="en">Able Seaman</lla:hasCapacity>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/15772-477391-5"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/15772-477391-5"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/15772"/>
+    <lla:hasPreviousIndividualEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/15772-477391-5-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbook/!5772-477392">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Logbook"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">477-39-2</dcterms:identifier>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/archivefile/477-39_vtls004957316"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-1"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-2"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-3"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-4"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-5"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-6"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/!5772-477392"/>
+    <lla:logbookAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">41</lla:logbookAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/joining/!5772-477392-1"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/!5772-477392-1"/>
+    <lla:reason xml:lang="en">Lost at sea</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+    <lla:note xml:lang="en">The ship foundered in the Bristol Channel &amp; all hands were lost.</lla:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>Lawrence Sykes</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/!5772-477392-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/!5772-477392-1">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:place xml:lang="en">Knottingley, Yorkshire</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/joining/!5772-477392-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipJoiningEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">3835</dc:date>
+    <lla:hasCapacity xml:lang="en">Master</lla:hasCapacity>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-1"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-1"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/!5772"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/!5772-477392-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">3938</dc:date>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-1"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-1"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/!5772"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/!5772-477392"/>
+    <lla:logbookAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">28</lla:logbookAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/joining/!5772-477392-2"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/!5772-477392-2"/>
+    <lla:reason xml:lang="en">Discharged</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>Samuel Haylor</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/!5772-477392-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/!5772-477392-2">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:place xml:lang="en">London</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/joining/!5772-477392-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipJoiningEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">548</dc:date>
+    <lla:hasCapacity xml:lang="en">Mate</lla:hasCapacity>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-2"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-2"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/!5772"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/!5772-477392-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">3931</dc:date>
+    <bio:place xml:lang="en">Runcorn</bio:place>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-2"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-2"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/!5772"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-3">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/!5772-477392"/>
+    <lla:logbookAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</lla:logbookAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/joining/!5772-477392-3"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/!5772-477392-3"/>
+    <lla:reason xml:lang="en">Discharged</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-3">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>Cetulie Germain</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/!5772-477392-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/!5772-477392-3">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:place xml:lang="en">Brec</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/joining/!5772-477392-3">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipJoiningEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">3835</dc:date>
+    <lla:hasCapacity xml:lang="en">Able Seaman</lla:hasCapacity>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-3"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-3"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/!5772"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/!5772-477392-3">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1910-07---</dc:date>
+    <bio:place xml:lang="en">Rochester</bio:place>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-3"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-3"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/!5772"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-4">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/!5772-477392"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/!5772-477392-4"/>
+    <lla:reason xml:lang="en">Discharged</lla:reason>
+    <lla:note xml:lang="en">Nothing appears to be known about this sailor.</lla:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-4">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>Unnamed seaman</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/!5772-477392-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/!5772-477392-4">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/!5772-477392-4">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1910-09---</dc:date>
+    <bio:place xml:lang="en">Plymouth</bio:place>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-4"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-4"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/!5772"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-5">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/!5772-477392"/>
+    <lla:logbookAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</lla:logbookAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/joining/!5772-477392-5"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/!5772-477392-5"/>
+    <lla:reason xml:lang="en">Lost at sea</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-5">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>G.S. Karlsson</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/!5772-477392-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/!5772-477392-5">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:place xml:lang="en">Sweden</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/joining/!5772-477392-5">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipJoiningEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">3868</dc:date>
+    <bio:place xml:lang="en">Falmouth</bio:place>
+    <lla:hasCapacity xml:lang="en">Cook/ A. Seaman</lla:hasCapacity>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-5"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-5"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/!5772"/>
+    <lla:hasPreviousIndividualEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/!5772-477392-5-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/!5772-477392-5">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">3938</dc:date>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-5"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-5"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/!5772"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-6">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/!5772-477392"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/!5772-477392-6"/>
+    <lla:reason xml:lang="en">Lost at sea</lla:reason>
+    <lla:note xml:lang="en">A letter from the former Mate Samuel Hayler states that there were 2 Swedish sailorson board - one joined at Plymouth &amp; was known as "Gus" &amp; the other was called Gunner Holsen. There are no complete records for this last voyage owing to the former Manager being committed to Bodmin Asylum.</lla:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-6">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>Unknown Seaman</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/!5772-477392-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/!5772-477392-6">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/!5772-477392-6">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">3938</dc:date>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-6"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-6"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/!5772"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-7">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/!5772-477392"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/!5772-477392-7"/>
+    <lla:reason xml:lang="en">Lost at sea</lla:reason>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-7">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>Unknown Seaman</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/!5772-477392-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/!5772-477392-7">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/!5772-477392-7">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">3938</dc:date>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/!5772-477392-7"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/!5772-477392-7"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/!5772"/>
+  </rdf:Description>
+</rdf:RDF>

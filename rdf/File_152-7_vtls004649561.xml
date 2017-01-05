@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lla="http://data.llgc.org.uk/lla/def#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:archiveshub="http://data.archiveshub.ac.uk/def" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:void="http://rdfs.org/ns/void#" xmlns:owl="http://www.w3.org/2002/07/owl#">
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/ship/18960">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookShip"/>
+    <lla:hasHomePort xml:lang="en">Aberystwyth</lla:hasHomePort>
+    <lla:officialnumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">18960</lla:officialnumber>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/archivefile/152-7_vtls004649561"/>
+    <rdfs:label xml:lang="en">Eagle</rdfs:label>
+    <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q24027098"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbook/18960-15271"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/18960-15271-1"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/18960-15271-2"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbook/18960-15272"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/18960-15272-1"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/18960-15272-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/archivefile/152-7_vtls004649561">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#File"/>
+    <lla:vtlsNum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">004649561</lla:vtlsNum>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">152-7</dcterms:identifier>
+    <lla:sourceFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">File_152-7_vtls004649561.xls</lla:sourceFile>
+    <lla:mentions rdf:resource="http://data.llgc.org.uk/lla/id/ship/18960"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbook/18960-15271"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbook/18960-15272"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbook/18960-15271">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Logbook"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">152-7-1</dcterms:identifier>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/archivefile/152-7_vtls004649561"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/18960-15271-1"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/18960-15271-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/18960-15271-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/18960-15271"/>
+    <lla:calculatedAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">48</lla:calculatedAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/18960-15271-1-2"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/joining/18960-15271-1"/>
+    <lla:reason xml:lang="en">Remains on board</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/18960-15271-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>Daniel Davies</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/18960-15271-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/18960-15271-1">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1832-01-01</dc:date>
+    <bio:place xml:lang="en">Cardigan</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/18960-15271-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/18960-15271-1-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1880</dc:date>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/18960-15271-1"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/18960-15271-1"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/18960-15271-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/ship/18960-15271-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Ship"/>
+    <lla:hasHomePort xml:lang="en">Aberystwyth</lla:hasHomePort>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/archivefile/152-7_vtls004649561"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbook/18960-15271"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/18960-15271-1"/>
+    <rdfs:label xml:lang="en">Dolphin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/joining/18960-15271-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipJoiningEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1881-05-27</dc:date>
+    <bio:place xml:lang="en">Llangrannog</bio:place>
+    <lla:hasCapacity xml:lang="en">Master</lla:hasCapacity>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/18960-15271-1"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/18960-15271-1"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/18960"/>
+    <lla:hasPreviousIndividualEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/18960-15271-1-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/18960-15271-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/18960-15271"/>
+    <lla:calculatedAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">72</lla:calculatedAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/18960-15271-2-2"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/joining/18960-15271-2"/>
+    <lla:reason xml:lang="en">Remains on board</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/18960-15271-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>John Jones</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/18960-15271-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/18960-15271-2">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1808-01-01</dc:date>
+    <bio:place xml:lang="en">Cardigan</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/18960-15271-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/18960-15271-2-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1880</dc:date>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/18960-15271-2"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/18960-15271-2"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/18960-15271-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/ship/18960-15271-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Ship"/>
+    <lla:hasHomePort xml:lang="en">Aberystwyth</lla:hasHomePort>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/archivefile/152-7_vtls004649561"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbook/18960-15271"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/18960-15271-2"/>
+    <rdfs:label xml:lang="en">Anne Davies</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/joining/18960-15271-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipJoiningEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1881-05-27</dc:date>
+    <bio:place xml:lang="en">Llangrannog</bio:place>
+    <lla:hasCapacity xml:lang="en">Mate</lla:hasCapacity>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/18960-15271-2"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/18960-15271-2"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/18960"/>
+    <lla:hasPreviousIndividualEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/18960-15271-2-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbook/18960-15272">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Logbook"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">152-7-2</dcterms:identifier>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/archivefile/152-7_vtls004649561"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/18960-15272-1"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/18960-15272-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/18960-15272-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/18960-15272"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/joining/18960-15272-1"/>
+    <lla:reason xml:lang="en">Remains on board</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+    <lla:note xml:lang="en">Ship laid up for Winter</lla:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/18960-15272-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>Daniel Davies</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/18960-15272-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/18960-15272-1">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1832-01-01</dc:date>
+    <bio:place xml:lang="en">Cardigan</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/18960-15272-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/joining/18960-15272-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipJoiningEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Remains</dc:date>
+    <lla:hasCapacity xml:lang="en">Master</lla:hasCapacity>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/18960-15272-1"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/18960-15272-1"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/18960"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/18960-15272-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/18960-15272"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/joining/18960-15272-2"/>
+    <lla:reason xml:lang="en">Remains on board</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+    <lla:note xml:lang="en">Ship laid up for Winter</lla:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/18960-15272-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>John Jones</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/18960-15272-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/18960-15272-2">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1808-01-01</dc:date>
+    <bio:place xml:lang="en">Cardigan</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/18960-15272-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/joining/18960-15272-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipJoiningEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Remains</dc:date>
+    <lla:hasCapacity xml:lang="en">Mate</lla:hasCapacity>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/18960-15272-2"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/18960-15272-2"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/18960"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:lla="http://data.llgc.org.uk/lla/def#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:archiveshub="http://data.archiveshub.ac.uk/def" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:bio="http://purl.org/vocab/bio/0.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:void="http://rdfs.org/ns/void#" xmlns:owl="http://www.w3.org/2002/07/owl#">
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/ship/25418">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookShip"/>
+    <lla:hasHomePort xml:lang="en">Aberystwyth</lla:hasHomePort>
+    <lla:officialnumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">25418</lla:officialnumber>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/archivefile/84-11_vtls004630773"/>
+    <rdfs:label xml:lang="en">Burncoose</rdfs:label>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbook/25418-84111"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-1"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-2"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-3"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-4"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-5"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbook/25418-84112"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84112-1"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84112-2"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84112-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/archivefile/84-11_vtls004630773">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#File"/>
+    <lla:vtlsNum rdf:datatype="http://www.w3.org/2001/XMLSchema#string">004630773</lla:vtlsNum>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84-11</dcterms:identifier>
+    <lla:sourceFile rdf:datatype="http://www.w3.org/2001/XMLSchema#string">File_84-11_vtls004630773.xls</lla:sourceFile>
+    <lla:mentions rdf:resource="http://data.llgc.org.uk/lla/id/ship/25418"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbook/25418-84111"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbook/25418-84112"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbook/25418-84111">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Logbook"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84-11-1</dcterms:identifier>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/archivefile/84-11_vtls004630773"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-1"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-2"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-3"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-4"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/25418-84111"/>
+    <lla:logbookAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</lla:logbookAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-1"/>
+    <lla:reason xml:lang="en">Remains on board</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/25418-84111-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>Peter Wiliams</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/25418-84111-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/25418-84111-1">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:place xml:lang="en">Anglesea</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">Remains</dc:date>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-1"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-1"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/25418"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/25418-84111"/>
+    <lla:logbookAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</lla:logbookAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-2-2"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/joining/25418-84111-2"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-2"/>
+    <lla:reason xml:lang="en">Paid off</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/25418-84111-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>Thomas Griffiths</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/25418-84111-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/25418-84111-2">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:place xml:lang="en">Bangor</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-2-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1877-02-26</dc:date>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-2"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-2"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/25418-84111-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/ship/25418-84111-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Ship"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/archivefile/84-11_vtls004630773"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbook/25418-84111"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-2"/>
+    <rdfs:label xml:lang="en">Valiant, fishing boat</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/joining/25418-84111-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipJoiningEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1877-03-01</dc:date>
+    <bio:place xml:lang="en">Bangor</bio:place>
+    <lla:hasCapacity xml:lang="en">Mate</lla:hasCapacity>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-2"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-2"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/25418"/>
+    <lla:hasPreviousIndividualEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-2-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1877-03-27</dc:date>
+    <bio:place xml:lang="en">Bangor</bio:place>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-2"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-2"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/25418"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-3">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/25418-84111"/>
+    <lla:logbookAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</lla:logbookAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-3-2"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/joining/25418-84111-3"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-3"/>
+    <lla:reason xml:lang="en">Paid off</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/25418-84111-3">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>Edward Williams</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/25418-84111-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/25418-84111-3">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:place xml:lang="en">Bangor</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-3-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1877-02-23</dc:date>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-3"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-3"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/25418-84111-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/ship/25418-84111-3">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Ship"/>
+    <lla:hasHomePort xml:lang="en">Caernarvon</lla:hasHomePort>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/archivefile/84-11_vtls004630773"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbook/25418-84111"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-3"/>
+    <rdfs:label xml:lang="en">Eliza &amp; Jane</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/joining/25418-84111-3">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipJoiningEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1877-03-01</dc:date>
+    <bio:place xml:lang="en">Bangor</bio:place>
+    <lla:hasCapacity xml:lang="en">Ordinary Seaman</lla:hasCapacity>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-3"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-3"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/25418"/>
+    <lla:hasPreviousIndividualEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-3-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-3">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1877-03-27</dc:date>
+    <bio:place xml:lang="en">Bangor</bio:place>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-3"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-3"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/25418"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-4">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/25418-84111"/>
+    <lla:logbookAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</lla:logbookAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-4-2"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/joining/25418-84111-4"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-4"/>
+    <lla:reason xml:lang="en">Paid off</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/25418-84111-4">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>David Davies</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/25418-84111-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/25418-84111-4">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:place xml:lang="en">Bangor</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-4-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1877-05-08</dc:date>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-4"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-4"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/25418-84111-4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/ship/25418-84111-4">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Ship"/>
+    <lla:hasHomePort xml:lang="en">Caernarvon</lla:hasHomePort>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/archivefile/84-11_vtls004630773"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbook/25418-84111"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-4"/>
+    <rdfs:label xml:lang="en">Maermaid</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/joining/25418-84111-4">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipJoiningEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1877-05-11</dc:date>
+    <bio:place xml:lang="en">Bangor</bio:place>
+    <lla:hasCapacity xml:lang="en">Mate</lla:hasCapacity>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-4"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-4"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/25418"/>
+    <lla:hasPreviousIndividualEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-4-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-4">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1877-06-21</dc:date>
+    <bio:place xml:lang="en">Bangor</bio:place>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-4"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-4"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/25418"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-5">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/25418-84111"/>
+    <lla:logbookAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</lla:logbookAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-5-2"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/joining/25418-84111-5"/>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-5"/>
+    <lla:reason xml:lang="en">Paid off</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/25418-84111-5">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>John Roberts</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/25418-84111-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/25418-84111-5">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:place xml:lang="en">Anglesey</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-5-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1877-05-08</dc:date>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-5"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-5"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/25418-84111-5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/ship/25418-84111-5">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Ship"/>
+    <lla:hasHomePort xml:lang="en">Beaumaris</lla:hasHomePort>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/archivefile/84-11_vtls004630773"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbook/25418-84111"/>
+    <lla:mentionedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-5"/>
+    <rdfs:label xml:lang="en">Seaman</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/joining/25418-84111-5">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipJoiningEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1877-05-11</dc:date>
+    <bio:place xml:lang="en">Bangor</bio:place>
+    <lla:hasCapacity xml:lang="en">Ordinary Seaman</lla:hasCapacity>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-5"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-5"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/25418"/>
+    <lla:hasPreviousIndividualEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-5-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/25418-84111-5">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1877-06-21</dc:date>
+    <bio:place xml:lang="en">Bangor</bio:place>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84111-5"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84111-5"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/25418"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbook/25418-84112">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Logbook"/>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84-11-2</dcterms:identifier>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/archivefile/84-11_vtls004630773"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84112-1"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84112-2"/>
+    <dcterms:hasPart rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84112-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/25418-84112-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/25418-84112"/>
+    <lla:logbookAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</lla:logbookAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/25418-84112-1"/>
+    <lla:reason xml:lang="en">Paid off</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/25418-84112-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>Peter Williams</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/25418-84112-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/25418-84112-1">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:place xml:lang="en">Anglesea</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84112-1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/25418-84112-1">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1877-12-31</dc:date>
+    <bio:place xml:lang="en">Bangor</bio:place>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84112-1"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84112-1"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/25418"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/25418-84112-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/25418-84112"/>
+    <lla:logbookAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</lla:logbookAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/25418-84112-2"/>
+    <lla:reason xml:lang="en">Paid off</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/25418-84112-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>John Hughes</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/25418-84112-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/25418-84112-2">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:place xml:lang="en">Anglesea</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84112-2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/25418-84112-2">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1877-12-31</dc:date>
+    <bio:place xml:lang="en">Bangor</bio:place>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84112-2"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84112-2"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/25418"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/logbookentry/25418-84112-3">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#LogbookEntry"/>
+    <dcterms:isPartOf rdf:resource="http://data.llgc.org.uk/lla/id/logbook/25418-84112"/>
+    <lla:logbookAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</lla:logbookAge>
+    <lla:describesEvent rdf:resource="http://data.llgc.org.uk/lla/id/event/leaving/25418-84112-3"/>
+    <lla:reason xml:lang="en">Paid off</lla:reason>
+    <lla:mark rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</lla:mark>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/mariner/25418-84112-3">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#Mariner"/>
+    <foaf:name>Henry Hall</foaf:name>
+    <bio:Birth rdf:resource="http://data.llgc.org.uk/lla/id/event/birth/25418-84112-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/birth/25418-84112-3">
+    <rdf:type rdf:resource="http://purl.org/vocab/bio/0.1/Birth"/>
+    <bio:place xml:lang="en">Jersey</bio:place>
+    <bio:agent rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84112-3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.llgc.org.uk/lla/id/event/leaving/25418-84112-3">
+    <rdf:type rdf:resource="http://data.llgc.org.uk/lla/def#ShipLeavingEvent"/>
+    <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">1877-12-31</dc:date>
+    <bio:place xml:lang="en">Bangor</bio:place>
+    <lla:involvesMariner rdf:resource="http://data.llgc.org.uk/lla/id/mariner/25418-84112-3"/>
+    <lla:recordedIn rdf:resource="http://data.llgc.org.uk/lla/id/logbookentry/25418-84112-3"/>
+    <lla:involvesShip rdf:resource="http://data.llgc.org.uk/lla/id/ship/25418"/>
+  </rdf:Description>
+</rdf:RDF>
